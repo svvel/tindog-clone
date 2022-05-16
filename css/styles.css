@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+/* title-section */
+#title {
+  text-align: left;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-head {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5% 0;
+}
+
+.iimg {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.d-button {
+  margin: 5% 5% 5% 0;
+}
+
+/* feature section */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.features-h3 {
+  font-size: 1.3rem;
+  padding: 0;
+}
+
+.col-lg-4 {
+  padding: 0 5% 0 2%;
+}
+
+.f-para {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.s2i {
+  font-size: 400%;
+  color: #ef8172;
+  padding: 6% 0;
+}
+
+.s2i:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section  */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testi-head {
+  font-size: 3rem;
+}
+
+.testi-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 6%;
+}
+
+.price-head {
+  padding: 0;
+}
+
+.pricing-h3 {
+  font-size: 1.3rem;
+  padding: 0;
+}
+
+.pricing-card {
+  padding: 5% 3% 2% 2%;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .iimg {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+/* cta-section */
+#cta {
+  color: #fff;
+  background-color: #ff4c68;
+}
+#cta .container-fluid {
+  padding: 3% 15% 5% ;
+}
+.cta-button {
+  margin: 1.5%;
+}
+
+/* footer-section */
+#footer {
+  background-color: #fff;
+  padding: 2% 3.5%;
+}
+
+.f-para {
+  padding: .8%;
+  font-size: .8rem;
+}
+
+.fi {
+  padding: .5%;
+  font-size: .8rem;
+}
